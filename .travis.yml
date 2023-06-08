@@ -3,7 +3,6 @@ services:
   - docker
 
 before_install:
-  - tree
   - docker build -t yehorkosiak/react-test -f ./client/Dockerfile.dev ./client
 
 script:
